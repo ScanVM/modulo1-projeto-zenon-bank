@@ -16,20 +16,20 @@ public record Transaction(long id, int step, TransactionType type, double amount
 //    private static boolean isFlaggedFraud;
 
 
-    @Override
-    public String toString() {
-        return "Transaction" + id +
-                "\nstep:" + step +
-                "\ntype:" + type +
-                "\namount:" + amount +
-                "\nnameOrig:'" + nameOrig + '\'' +
-                "\noldbalanceOrg:" + oldbalanceOrg +
-                "\nnewbalanceOrig:" + newbalanceOrig +
-                "\nnameDest:'" + nameDest + '\'' +
-                "\noldbalanceDest:" + oldbalanceDest +
-                "\nnewbalanceDest:" + newbalanceDest +
-                "\nisFraud:" + isFraud +
-                "\nisFlaggedFraud:" + isFlaggedFraud
-                + "\n";
-    }
+//    @Override
+//    public String toString() {
+//        return "Transaction" + id +
+//                "\nstep:" + step +
+//                "\ntype:" + type +
+//                "\namount:" + amount +
+//                "\nnameOrig:'" + nameOrig + '\'' +
+//                "\noldbalanceOrg:" + oldbalanceOrg +
+//                "\nnewbalanceOrig:" + newbalanceOrig +
+//                "\nnameDest:'" + nameDest + '\'' +
+//                "\noldbalanceDest:" + oldbalanceDest +
+//                "\nnewbalanceDest:" + newbalanceDest +
+//                "\nisFraud:" + isFraud +
+//                "\nisFlaggedFraud:" + isFlaggedFraud
+//                + "\n";
+//    }
 }
