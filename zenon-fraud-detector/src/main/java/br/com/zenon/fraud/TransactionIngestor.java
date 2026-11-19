@@ -22,7 +22,6 @@ public class TransactionIngestor {
                 if ((linha = leitor.readLine()) != null){
                     String[] campos = linha.split(",");
                     Transaction transaction = new Transaction(
-                        counter,
                         Integer.parseInt(campos[0]),
                         TransactionType.valueOf(campos[1]),
                         Double.parseDouble(campos[2]),

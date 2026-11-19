@@ -1,24 +1,11 @@
 package br.com.zenon.fraud;
 
-import java.math.BigDecimal;
-
-public record Transaction(long id, int step, TransactionType type, double amount, String nameOrig, double oldbalanceOrg,double newbalanceOrig,String nameDest,double oldbalanceDest,double newbalanceDest, int isFraud, int isFlaggedFraud) {
-//    private static int step;
-//    private static TransactionType type;
-//    private static BigDecimal amount;
-//    private static String nameOrig;
-//    private static BigDecimal oldbalanceOrg;
-//    private static BigDecimal newbalanceOrig;
-//    private static String nameDest;
-//    private static BigDecimal oldbalanceDest;
-//    private static BigDecimal newbalanceDest;
-//    private static boolean isFraud;
-//    private static boolean isFlaggedFraud;
+public record Transaction(int step, TransactionType type, double amount, String nameOrig, double oldbalanceOrg,double newbalanceOrig,String nameDest,double oldbalanceDest,double newbalanceDest, int isFraud, int isFlaggedFraud) {
 
 
 //    @Override
 //    public String toString() {
-//        return "Transaction" + id +
+//        return "Transaction" +
 //                "\nstep:" + step +
 //                "\ntype:" + type +
 //                "\namount:" + amount +
